@@ -1,0 +1,44 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# RAG artifacts
+chroma_db/
+*.sqlite3
+log.md
+query_responses.md
+*.log
+logs/
+
+# Scraped / cached data
+data/raw/
+data/scraped/
+cache/
+
+# Evaluation outputs
+evaluation/results/
+
+# ML caches
+.cache/
+.huggingface/
+
+# Streamlit / Flask
+.streamlit/secrets.toml
+.streamlit/cache/
+instance/
+
+# Jupyter / OS / IDE
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/

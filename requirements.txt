@@ -1,0 +1,22 @@
+# Core Packages
+python-dotenv
+langchain>=0.3,<1.0
+langchain-openai
+langchain-community
+langchain-core
+langchain-text-splitters
+chromadb
+tiktoken
+pandas
+scikit-learn
+numpy
+
+# Web Scraping Packages
+requests
+beautifulsoup4
+lxml
+urllib3
+
+# UI
+streamlit
+flask
