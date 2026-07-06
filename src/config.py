@@ -4,3 +4,4 @@ from pathlib import Path
 
 URL = "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/"
 RAW_DIR = Path("data/raw")
+CLEANED_DIR = Path("data/cleaned")
