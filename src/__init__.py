@@ -1,1 +1,1 @@
-"""DSI RAG pipeline source package."""
+"""MS in Applied Data Science RAG pipeline source package."""
