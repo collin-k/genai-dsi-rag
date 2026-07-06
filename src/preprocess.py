@@ -1,6 +1,6 @@
 """Clean scraped HTML and write structured text files to the knowledge base."""
 
-from config import RAW_DIR
+from config import RAW_DIR, CLEANED_DIR
 from pathlib import Path
 import logging
 from bs4 import BeautifulSoup
