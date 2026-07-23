@@ -40,3 +40,7 @@ EXCLUDED_PATH_FRAGMENTS = (
     "/data-science-clinic/",
     "/summer-research-programs/",
 )
+
+BLOCK_TAGS = ("h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "dd", "blockquote")
+NOISE_SELECTORS = ("script", "style", "noscript", ".gridder-list", ".button--read-more", ".button--read-less")
+MAIN_CONTENT_SELECTORS = (".main-content", "main.site-content", "main")
