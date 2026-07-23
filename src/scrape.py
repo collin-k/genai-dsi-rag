@@ -241,7 +241,7 @@ def collect_urls(start_url: str, max_pages: int = MAX_SCRAPE_PAGES) -> list[str]
     return sorted(collected)
 
 
-def main() -> None:
+def scrape() -> None:
     """CLI entry point: ``python src/scrape.py``."""
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     logger = logging.getLogger(__name__)
@@ -255,7 +255,3 @@ def main() -> None:
         _ = save_raw_html(html, link, RAW_DIR)
 
     print(f"Scraped {len(collected_urls)} pages into {RAW_DIR.resolve()}")
-
-
-if __name__ == "__main__":
-    main()
