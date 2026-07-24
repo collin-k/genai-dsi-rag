@@ -1,10 +1,12 @@
 """Shared configuration: URLs, file paths, chunk sizes, and model settings."""
 
 from pathlib import Path
+from urllib.parse import urlparse
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 URL = "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/"
+BASE_URL = f"{urlparse(URL).scheme}://{urlparse(URL).netloc}"
 PROGRAM_PATH_PREFIX = (
     "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science"
 )
@@ -44,3 +46,12 @@ EXCLUDED_PATH_FRAGMENTS = (
 BLOCK_TAGS = ("h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "dd", "blockquote")
 NOISE_SELECTORS = ("script", "style", "noscript", ".gridder-list", ".button--read-more", ".button--read-less")
 MAIN_CONTENT_SELECTORS = (".main-content", "main.site-content", "main")
+
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 150
+EMBEDDING_MODEL = "text-embedding-3-small"
+TIKTOKEN_ENCODING = "cl100k_base"
+VECTOR_STORE_DIR = PROJECT_ROOT / "data" / "vector_store"
+
+RETRIEVER_TOP_K = 4
+HYBRID_WEIGHTS = (0.5, 0.5)
