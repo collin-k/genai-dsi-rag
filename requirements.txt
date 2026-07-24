@@ -5,6 +5,8 @@ langchain-openai
 langchain-community
 langchain-core
 langchain-text-splitters
+faiss-cpu
+rank_bm25
 chromadb
 tiktoken
 pandas
