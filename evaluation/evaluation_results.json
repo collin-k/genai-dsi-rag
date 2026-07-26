@@ -1,0 +1,1032 @@
+{
+  "summary": {
+    "number_of_questions": 14,
+    "retrieval_hit_rate_at_k": 0.5714,
+    "mean_reciprocal_rank": 0.5,
+    "mean_context_keyword_recall": 0.631,
+    "mean_answer_keyword_recall": 0.5007,
+    "mean_answer_token_f1": 0.2993,
+    "mean_response_relevance_1_to_5": 3.0,
+    "mean_faithfulness_1_to_5": 3.2143
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "question": "What are the core courses in the MS in Applied Data Science program?",
+      "ground_truth": "The core courses in the MS in Applied Data Science program include Machine Learning, Data Engineering Platforms, Statistical Inference, and Applied Data Science.",
+      "generated_answer": "The MS in Applied Data Science program requires students to complete 6 core courses, which build theoretical understanding and teach the application of data science methods to real-world problems. However, the specific titles or content details of these core courses are not provided in the retrieved context. \n\nFor more information, you can visit the curriculum details page: [Course Progressions](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions/).",
+      "hit_at_k": 0,
+      "first_relevant_rank": 0,
+      "reciprocal_rank": 0.0,
+      "context_keyword_recall": 0.5,
+      "answer_keyword_recall": 0.25,
+      "answer_token_f1": 0.3299,
+      "response_relevance_1_to_5": 1,
+      "faithfulness_1_to_5": 1,
+      "judge_reason": "The response does not mention the specific core courses in the program and states that details are not provided, failing to meet the question requirements.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions/",
+          "page_title": "Course Progressions",
+          "section_title": "Curriculum Details",
+          "hybrid_score": 0.01613323,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.5285335779190063,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 3,
+            "bm25_score": 9.910561710049612,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/",
+          "page_title": "Online Program",
+          "section_title": "Curriculum",
+          "hybrid_score": 0.01564027,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.555339515209198,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 6,
+            "bm25_score": 9.572640959848808,
+            "sparse_rrf": 0.007575757575757576
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/online-program/",
+          "page_title": "Online Program",
+          "section_title": "Curriculum",
+          "hybrid_score": 0.01539919,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 0.555339515209198,
+            "dense_rrf": 0.007936507936507936,
+            "bm25_rank": 7,
+            "bm25_score": 9.572640959848808,
+            "sparse_rrf": 0.007462686567164179
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "bm25_rank": 1,
+            "bm25_score": 10.607333208213912,
+            "sparse_rrf": 0.00819672131147541
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "What are the admission requirements for the MS in Applied Data Science program?",
+      "ground_truth": "Applicants need a bachelor's degree in a related field, with coursework in programming, statistics, and mathematics. The application also requires a personal statement, letters of recommendation, and a resume.",
+      "generated_answer": "The admission requirements for the MS in Applied Data Science program include:\n\n1. **Completed Application**: Only completed applications are reviewed.\n2. **Unofficial Transcripts**: Upload one unofficial transcript from each university attended, including an unofficial undergraduate transcript.\n3. **Letters of Recommendation**: Recommenders must upload their letters using a URL sent to them electronically.\n4. **GRE/GMAT**: Not required, but scores can be submitted if available.\n5. **English Proficiency**: Refer to the University of Chicago's English Language Proficiency requirements.\n\nFor specific details or any other materials needed, please check the \"How to Apply\" page linked in the FAQs. \n\nFor more information, visit: [MS in Applied Data Science FAQs](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/) and [How to Apply](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/).",
+      "hit_at_k": 0,
+      "first_relevant_rank": 0,
+      "reciprocal_rank": 0.0,
+      "context_keyword_recall": 0.0,
+      "answer_keyword_recall": 0.1429,
+      "answer_token_f1": 0.1183,
+      "response_relevance_1_to_5": 2,
+      "faithfulness_1_to_5": 3,
+      "judge_reason": "The generated answer partially addresses the admission requirements but misses key points like the need for a bachelor's degree in a related field and relevant coursework. It is somewhat consistent with the retrieved context but does not fully cover essential details.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/tuition-fees-aid/",
+          "page_title": "Tuition, Fees, & Aid",
+          "section_title": "The Data Science Institute Scholarship, MS in Applied Data Science Alumni Scholarship",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.5689610838890076,
+            "dense_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "bm25_rank": 1,
+            "bm25_score": 14.876309960975103,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students/",
+          "page_title": "Our Students",
+          "section_title": "Age Breakdown (In-Person & Online)",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.6026382446289062,
+            "dense_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "bm25_rank": 2,
+            "bm25_score": 13.99982466851296,
+            "sparse_rrf": 0.008064516129032258
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "question": "Can you provide information about the capstone project?",
+      "ground_truth": "The capstone project is a key component of the MS in Applied Data Science program, where students work on real-world problems, applying their learned skills to develop data-driven solutions.",
+      "generated_answer": "The capstone project in the University of Chicago's MS in Applied Data Science program involves teams of four students working on real-world problems proposed by organizations. Each team is guided by an instructor and subject matter expert. \n\n**Sponsor Obligations:**\n- Provide a detailed problem statement and relevant data by the first week of the quarter.\n- Designate two or more points of contact.\n- Engage in regular meetings (typically bi-weekly).\n- If requested, a non-disclosure agreement may be completed by the student team.\n\n**Sponsor Incentives:**\nOrganizations gain access to trained students who can provide actionable insights, opportunities for recruitment, and support for untested ideas or research queries.\n\nFor more details, you can visit the [Capstone Projects page](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/).",
+      "hit_at_k": 1,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 0.75,
+      "answer_token_f1": 0.2469,
+      "response_relevance_1_to_5": 5,
+      "faithfulness_1_to_5": 5,
+      "judge_reason": "The generated answer directly addresses the question about the capstone project in the MS in Applied Data Science program, providing accurate details about team structure, sponsor obligations, and incentives. All important claims are supported by the retrieved context.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/",
+          "page_title": "Capstone Projects",
+          "section_title": "Capstone Sponsor Obligations",
+          "hybrid_score": 0.01613323,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.7591454982757568,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 3,
+            "bm25_score": 5.444013750425315,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/",
+          "page_title": "Capstone Projects",
+          "section_title": "Capstone Sponsor Incentives",
+          "hybrid_score": 0.01538826,
+          "details": {
+            "dense_rank": 4,
+            "faiss_score": 0.906837522983551,
+            "dense_rrf": 0.0078125,
+            "bm25_rank": 6,
+            "bm25_score": 5.1132558200085585,
+            "sparse_rrf": 0.007575757575757576
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/",
+          "page_title": "Online Program",
+          "section_title": "Note for International Students",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "bm25_rank": 1,
+            "bm25_score": 5.609122343547805,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/",
+          "page_title": "Elevate Your Expertise in Data Science",
+          "section_title": "Data in Action - Capstone Projects",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.8417168259620667,
+            "dense_rrf": 0.008064516129032258
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "question": "What scholarships are available for the program?",
+      "ground_truth": "The Data Science Institute Scholarship, MS in Applied Data Science Alumni Scholarship, etc.",
+      "generated_answer": "The MS in Applied Data Science program offers partial merit-based scholarships to eligible applicants. These scholarships are awarded automatically upon application, and it is recommended to submit applications ahead of the early deadline to maximize chances of securing a scholarship. \n\nFor more information, you can visit the following URLs:\n- [Tuition, Fees, & Aid](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/tuition-fees-aid/) \n- [How to Apply](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/)",
+      "hit_at_k": 1,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 0.3333,
+      "answer_token_f1": 0.1818,
+      "response_relevance_1_to_5": 2,
+      "faithfulness_1_to_5": 3,
+      "judge_reason": "The answer mentions merit-based scholarships and application recommendations, but it fails to specify the types of scholarships, such as the Data Science Institute Scholarship and the MS in Applied Data Science Alumni Scholarship, mentioned in the ground truth.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/tuition-fees-aid/",
+          "page_title": "Tuition, Fees, & Aid",
+          "section_title": "Financial Aid",
+          "hybrid_score": 0.01626124,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.8274314403533936,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 1,
+            "bm25_score": 11.687245101034728,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Tuition, Fees, & Aid",
+          "hybrid_score": 0.01600922,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.6901315450668335,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 4,
+            "bm25_score": 7.82482754623684,
+            "sparse_rrf": 0.0078125
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/tuition-fees-aid/",
+          "page_title": "Tuition, Fees, & Aid",
+          "section_title": "The Data Science Institute Scholarship, MS in Applied Data Science Alumni Scholarship",
+          "hybrid_score": 0.01587702,
+          "details": {
+            "dense_rank": 4,
+            "faiss_score": 0.9538320302963257,
+            "dense_rrf": 0.0078125,
+            "bm25_rank": 2,
+            "bm25_score": 8.636966537499212,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01562882,
+          "details": {
+            "dense_rank": 5,
+            "faiss_score": 1.0438915491104126,
+            "dense_rrf": 0.007692307692307693,
+            "bm25_rank": 3,
+            "bm25_score": 7.879307570347694,
+            "sparse_rrf": 0.007936507936507936
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "question": "What are the minimum scores for the TOEFL and IELTS English Language Requirement?",
+      "ground_truth": "Minimum scores for the Master's in Applied Data Science program: TOEFL, 102 (no subscore requirement); IELTS, 7 (no subscore requirement).",
+      "generated_answer": "The minimum scores for the English Language Requirement for the Master\u2019s in Applied Data Science program are:\n\n- TOEFL: 102 (prior requirement) or 5 (current requirement; no subscore requirement)\n- IELTS: 7 (no subscore requirement)\n\nFor more information, you can visit the following link: [How to Apply](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/).",
+      "hit_at_k": 1,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 1.0,
+      "answer_token_f1": 0.5122,
+      "response_relevance_1_to_5": 1,
+      "faithfulness_1_to_5": 1,
+      "judge_reason": "The generated answer contains incorrect information regarding the TOEFL score, stating '5' as the current requirement, which conflicts with the provided ground truth of '102'. Thus, it does not accurately answer the question.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "English Language Requirement",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.9508494734764099,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 32.01164412821122,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "English language proficiency",
+          "hybrid_score": 0.01612903,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.9508494734764099,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 2,
+            "bm25_score": 32.01164412821122,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "Information for International Applicants",
+          "hybrid_score": 0.01587302,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 1.2091373205184937,
+            "dense_rrf": 0.007936507936507936,
+            "bm25_rank": 3,
+            "bm25_score": 29.27979803152631,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.015625,
+          "details": {
+            "dense_rank": 4,
+            "faiss_score": 1.2913317680358887,
+            "dense_rrf": 0.0078125,
+            "bm25_rank": 4,
+            "bm25_score": 25.695516901707016,
+            "sparse_rrf": 0.0078125
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "question": "Is there an application fee waiver?",
+      "ground_truth": "For questions regarding an application fee waiver, please refer to the Physical Sciences Division fee waiver policy.",
+      "generated_answer": "Yes, there is a possibility for an application fee waiver. For questions regarding an application fee waiver, please refer to the Physical Sciences Division fee waiver policy. \n\nMore information can be found here: [How to Apply](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/)",
+      "hit_at_k": 0,
+      "first_relevant_rank": 0,
+      "reciprocal_rank": 0.0,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 1.0,
+      "answer_token_f1": 0.5,
+      "response_relevance_1_to_5": 3,
+      "faithfulness_1_to_5": 4,
+      "judge_reason": "The generated answer mentions the possibility of an application fee waiver and directs the user to the relevant policy. However, it lacks clarity regarding the actual existence of a waiver since the retrieved context states there is a non-refundable fee.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Application Fee",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.6952425241470337,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 17.671787745264957,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "Information for International Applicants",
+          "hybrid_score": 0.01516544,
+          "details": {
+            "dense_rank": 8,
+            "faiss_score": 1.2350983619689941,
+            "dense_rrf": 0.007352941176470588,
+            "bm25_rank": 4,
+            "bm25_score": 5.2227132269719245,
+            "sparse_rrf": 0.0078125
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Tuition, Fees, & Aid",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 1.0848180055618286,
+            "dense_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "English Language Requirement",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "bm25_rank": 2,
+            "bm25_score": 5.257777812343555,
+            "sparse_rrf": 0.008064516129032258
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "question": "What are the deadlines for the in-person program?",
+      "ground_truth": "In-person program deadlines include: Priority Application Deadline, Scholarship Priority Deadline, International Application Deadline (requiring visa sponsorship from UChicago), Second Priority Application Deadline, Third Priority Application Deadline, and Final Application Deadline.",
+      "generated_answer": "The application for the Autumn 2026 enrollment has closed as of December 4, 2025. The application portal for the 2027 entrance will open in September 2026. Specific future deadlines for the in-person program will be announced once available. \n\nFor more information, you can visit the following URLs:\n- [MS in Applied Data Science FAQs](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/)\n- [How to Apply](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/)",
+      "hit_at_k": 0,
+      "first_relevant_rank": 0,
+      "reciprocal_rank": 0.0,
+      "context_keyword_recall": 0.0,
+      "answer_keyword_recall": 0.0,
+      "answer_token_f1": 0.1207,
+      "response_relevance_1_to_5": 1,
+      "faithfulness_1_to_5": 1,
+      "judge_reason": "The generated answer does not address the specific deadlines requested and provides unrelated information about future timelines not supported by retrieved context.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01588903,
+          "details": {
+            "dense_rank": 5,
+            "faiss_score": 0.9598709344863892,
+            "dense_rrf": 0.007692307692307693,
+            "bm25_rank": 1,
+            "bm25_score": 9.487854165915383,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/",
+          "page_title": "Elevate Your Expertise in Data Science",
+          "section_title": "Plan Your Next Steps",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.7597519159317017,
+            "dense_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Master\u2019s in Applied Data Science Application Requirements",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.7876265645027161,
+            "dense_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "bm25_rank": 2,
+            "bm25_score": 7.302963883228922,
+            "sparse_rrf": 0.008064516129032258
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "question": "How long will it take for me to receive a decision on my application?",
+      "ground_truth": "In-Person application decisions are released approximately 1 to 2 months after each respected deadline. Online application decisions are released on a rolling basis.",
+      "generated_answer": "Admissions decisions for the Master's in Applied Data Science program are typically released 1-2 months after each application deadline. Only completed applications are reviewed. \n\nFor more details, please refer to the FAQs: [UChicago MS in Applied Data Science FAQs](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/).",
+      "hit_at_k": 1,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "context_keyword_recall": 0.0,
+      "answer_keyword_recall": 0.0,
+      "answer_token_f1": 0.3333,
+      "response_relevance_1_to_5": 5,
+      "faithfulness_1_to_5": 5,
+      "judge_reason": "The generated answer accurately states that admission decisions are released 1-2 months after the application deadline, aligning perfectly with the ground truth provided and is directly relevant to the question.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 1.1698999404907227,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 9.954317651808987,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01612903,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 1.1812784671783447,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 2,
+            "bm25_score": 9.683927043461809,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "Information for International Applicants",
+          "hybrid_score": 0.00793651,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 1.284637451171875,
+            "dense_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Transcripts from all previous colleges and universities attended",
+          "hybrid_score": 0.00793651,
+          "details": {
+            "bm25_rank": 3,
+            "bm25_score": 7.562899115758651,
+            "sparse_rrf": 0.007936507936507936
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "question": "Can I set up an advising appointment with the enrollment management team?",
+      "ground_truth": "Yes, meet your admissions counselor by scheduling an appointment at https://apply-psd.uchicago.edu/portal/applied-data-science.",
+      "generated_answer": "Yes, you can set up an advising appointment with the enrollment management team. You can find details on how to schedule an appointment through the program's website. \n\nFor more information, visit: [How to Apply](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/)",
+      "hit_at_k": 1,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "context_keyword_recall": 0.6667,
+      "answer_keyword_recall": 0.3333,
+      "answer_token_f1": 0.2899,
+      "response_relevance_1_to_5": 3,
+      "faithfulness_1_to_5": 3,
+      "judge_reason": "The generated answer is relevant as it acknowledges the possibility of setting up an advising appointment, but it does not specify the correct process as stated in the ground truth. Some support is indicated in the retrieved context but it lacks specific details for the appointment scheduling.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Meet your Admissions Counselor",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 1.0892386436462402,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 18.300339417447873,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff/",
+          "page_title": "Faculty, Instructors, Staff",
+          "section_title": "Staff",
+          "hybrid_score": 0.01612903,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 1.1370289325714111,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 2,
+            "bm25_score": 11.82403443829871,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff/",
+          "page_title": "Faculty, Instructors, Staff",
+          "section_title": "Staff",
+          "hybrid_score": 0.01562882,
+          "details": {
+            "dense_rank": 5,
+            "faiss_score": 1.197658896446228,
+            "dense_rrf": 0.007692307692307693,
+            "bm25_rank": 3,
+            "bm25_score": 11.662368653715493,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/",
+          "page_title": "Elevate Your Expertise in Data Science",
+          "section_title": "Plan Your Next Steps",
+          "hybrid_score": 0.01516544,
+          "details": {
+            "dense_rank": 8,
+            "faiss_score": 1.2037990093231201,
+            "dense_rrf": 0.007352941176470588,
+            "bm25_rank": 4,
+            "bm25_score": 8.21417916187337,
+            "sparse_rrf": 0.0078125
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Where can I mail my official transcripts?",
+      "ground_truth": "The University of Chicago, Attention: MS in Applied Data Science Admissions, 455 N Cityfront Plaza Dr., Suite 950, Chicago, Illinois 60611.",
+      "generated_answer": "You should mail your official transcripts to the following address:\n\nThe University of Chicago  \nAttention: MS in Applied Data Science Admissions  \n455 N Cityfront Plaza Dr., Suite 2800  \nChicago, Illinois 60611\n\nFor more details, refer to the [How to Apply page](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/).",
+      "hit_at_k": 1,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 1.0,
+      "answer_token_f1": 0.5195,
+      "response_relevance_1_to_5": 2,
+      "faithfulness_1_to_5": 2,
+      "judge_reason": "The answer provides an address for mailing transcripts but uses the wrong suite number. It partially addresses the question but lacks accuracy.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01626124,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 1.2746672630310059,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 1,
+            "bm25_score": 18.767376879149026,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "Transcripts from all previous colleges and universities attended",
+          "hybrid_score": 0.01613323,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 1.0006663799285889,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 3,
+            "bm25_score": 13.74333187838176,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01587702,
+          "details": {
+            "dense_rank": 4,
+            "faiss_score": 1.5310235023498535,
+            "dense_rrf": 0.0078125,
+            "bm25_rank": 2,
+            "bm25_score": 15.567729808775574,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01574901,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 1.5122795104980469,
+            "dense_rrf": 0.007936507936507936,
+            "bm25_rank": 4,
+            "bm25_score": 10.527235312124894,
+            "sparse_rrf": 0.0078125
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "Does the Master's in Applied Data Science Online program provide visa sponsorship?",
+      "ground_truth": "Only our In-Person, Full-Time program is Visa eligible.",
+      "generated_answer": "No, the Master's in Applied Data Science Online program does not provide visa sponsorship. [Source](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/)",
+      "hit_at_k": 1,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 0.3333,
+      "answer_token_f1": 0.15,
+      "response_relevance_1_to_5": 5,
+      "faithfulness_1_to_5": 5,
+      "judge_reason": "The generated answer accurately states that the Master's in Applied Data Science Online program does not provide visa sponsorship, which aligns perfectly with the ground truth and is supported by retrieved context.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+          "page_title": "How to Apply",
+          "section_title": "International Students",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.46922409534454346,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 29.660577392235002,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "Applying as an International Student",
+          "hybrid_score": 0.01612903,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.49889329075813293,
+            "dense_rrf": 0.008064516129032258,
+            "bm25_rank": 2,
+            "bm25_score": 27.252565965362336,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01587302,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 0.6748631596565247,
+            "dense_rrf": 0.007936507936507936,
+            "bm25_rank": 3,
+            "bm25_score": 23.1669010146549,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "Information for International Applicants",
+          "hybrid_score": 0.01470588,
+          "details": {
+            "dense_rank": 8,
+            "faiss_score": 0.7977100610733032,
+            "dense_rrf": 0.007352941176470588,
+            "bm25_rank": 8,
+            "bm25_score": 13.414598475924727,
+            "sparse_rrf": 0.007352941176470588
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "How do I apply to the MBA/MS program?",
+      "ground_truth": "Applicants interested in the Joint MBA/MS degree will apply through Booth's centralized, joint-application process. Applicants should complete the Chicago Booth Full-Time MBA application and select the MBA/MS in Applied Data Science as their program of interest.",
+      "generated_answer": "To apply to the MBA/MS joint degree program, you need to:\n\n1. Complete the Chicago Booth Full-Time MBA application.\n2. Select the MBA/MS in Applied Data Science as your program of interest.\n3. Fill out an MBA/MS program supplement that contains Applied Data Science specific questions. This supplement will be reviewed along with your full Booth application.\n\nFor complete consideration, ensure you complete both the MBA application and the joint-degree program supplement in the same application round prior to submission. \n\nFor additional details, you can find more here: [MBA/MS Application Info](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/)",
+      "hit_at_k": 0,
+      "first_relevant_rank": 0,
+      "reciprocal_rank": 0.0,
+      "context_keyword_recall": 0.6667,
+      "answer_keyword_recall": 0.6667,
+      "answer_token_f1": 0.4238,
+      "response_relevance_1_to_5": 5,
+      "faithfulness_1_to_5": 5,
+      "judge_reason": "The generated answer accurately details the application process for the MBA/MS program, including completing the Chicago Booth Full-Time MBA application, selecting the MBA/MS in Applied Data Science, and the requirement for a program supplement, which aligns with the ground-truth facts.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.8189342021942139,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 11.650123087123125,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01600102,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 0.8511403799057007,
+            "dense_rrf": 0.007936507936507936,
+            "bm25_rank": 2,
+            "bm25_score": 11.126580696973011,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions/",
+          "page_title": "Course Progressions",
+          "section_title": "Flexible Formats",
+          "hybrid_score": 0.01562882,
+          "details": {
+            "dense_rank": 5,
+            "faiss_score": 0.9322481155395508,
+            "dense_rrf": 0.007692307692307693,
+            "bm25_rank": 3,
+            "bm25_score": 6.194765037645974,
+            "sparse_rrf": 0.007936507936507936
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.8387119770050049,
+            "dense_rrf": 0.008064516129032258
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "Is the MS in Applied Data Science program STEM/OPT eligible?",
+      "ground_truth": "The MS in Applied Data Science program is STEM/OPT eligible.",
+      "generated_answer": "Yes, the full-time, In-Person Master's in Applied Data Science program is listed as a STEM-designated degree by the U.S. Department of Homeland Security for the purposes of the STEM OPT extension, allowing eligible students to apply. However, approval of STEM OPT is at the discretion of U.S. Citizenship & Immigration Services.\n\nFor more information, you can visit the FAQs page [here](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/).",
+      "hit_at_k": 1,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "context_keyword_recall": 1.0,
+      "answer_keyword_recall": 1.0,
+      "answer_token_f1": 0.2444,
+      "response_relevance_1_to_5": 5,
+      "faithfulness_1_to_5": 5,
+      "judge_reason": "The generated answer accurately states that the MS in Applied Data Science program is STEM/OPT eligible, aligning with the ground truth. It also references the authority behind this information, providing assurance of accuracy.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01639344,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.6907565593719482,
+            "dense_rrf": 0.00819672131147541,
+            "bm25_rank": 1,
+            "bm25_score": 21.871575825066742,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01575682,
+          "details": {
+            "dense_rank": 5,
+            "faiss_score": 0.833690345287323,
+            "dense_rrf": 0.007692307692307693,
+            "bm25_rank": 2,
+            "bm25_score": 20.004287329291067,
+            "sparse_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/tuition-fees-aid/",
+          "page_title": "Tuition, Fees, & Aid",
+          "section_title": "The Data Science Institute Scholarship, MS in Applied Data Science Alumni Scholarship",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.7697499990463257,
+            "dense_rrf": 0.008064516129032258
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/",
+          "page_title": "International Students",
+          "section_title": "Applying as an International Student",
+          "hybrid_score": 0.00793651,
+          "details": {
+            "dense_rank": 3,
+            "faiss_score": 0.7875867486000061,
+            "dense_rrf": 0.007936507936507936
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "How many courses must you complete to earn UChicago's Master's in Applied Data Science?",
+      "ground_truth": "To earn the MS-ADS degree students must successfully complete 12 courses (6 core, 4 elective, 2 Capstone) and our tailored Career Seminar.",
+      "generated_answer": "To earn UChicago's Master's in Applied Data Science, you must complete either 12 courses for the standard track or 18 courses for the thesis track. \n\nFor more details, you can visit: [MS in Applied Data Science](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/)",
+      "hit_at_k": 0,
+      "first_relevant_rank": 0,
+      "reciprocal_rank": 0.0,
+      "context_keyword_recall": 0.0,
+      "answer_keyword_recall": 0.2,
+      "answer_token_f1": 0.2192,
+      "response_relevance_1_to_5": 2,
+      "faithfulness_1_to_5": 2,
+      "judge_reason": "The answer partially addresses the question regarding course completion for the MS-ADS degree but includes incorrect information about the thesis track, which is not aligned with the ground truth.",
+      "retrieved_sources": [
+        {
+          "rank": 1,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.01470588,
+          "details": {
+            "dense_rank": 8,
+            "faiss_score": 0.6700737476348877,
+            "dense_rrf": 0.007352941176470588,
+            "bm25_rank": 8,
+            "bm25_score": 10.433898185454975,
+            "sparse_rrf": 0.007352941176470588
+          }
+        },
+        {
+          "rank": 2,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/",
+          "page_title": "Elevate Your Expertise in Data Science",
+          "section_title": "Elevate Your Expertise in Data Science",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "dense_rank": 1,
+            "faiss_score": 0.5819599628448486,
+            "dense_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 3,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+          "page_title": "FAQs",
+          "section_title": "Master\u2019s in Applied Data Science FAQs",
+          "hybrid_score": 0.00819672,
+          "details": {
+            "bm25_rank": 1,
+            "bm25_score": 17.237795880319283,
+            "sparse_rrf": 0.00819672131147541
+          }
+        },
+        {
+          "rank": 4,
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/",
+          "page_title": "Elevate Your Expertise in Data Science",
+          "section_title": "Industry Leading Faculty",
+          "hybrid_score": 0.00806452,
+          "details": {
+            "dense_rank": 2,
+            "faiss_score": 0.5833016037940979,
+            "dense_rrf": 0.008064516129032258
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "Q1",
+    "question": "What are the core courses in the MS in Applied Data Science program?",
+    "ground_truth": "The core courses in the MS in Applied Data Science program include Machine Learning, Data Engineering Platforms, Statistical Inference, and Applied Data Science.",
+    "expected_keywords": [
+      "Machine Learning",
+      "Data Engineering Platforms",
+      "Statistical Inference",
+      "Applied Data Science"
+    ],
+    "expected_url_fragments": [
+      "curriculum",
+      "courses"
+    ]
+  },
+  {
+    "id": "Q2",
+    "question": "What are the admission requirements for the MS in Applied Data Science program?",
+    "ground_truth": "Applicants need a bachelor's degree in a related field, with coursework in programming, statistics, and mathematics. The application also requires a personal statement, letters of recommendation, and a resume.",
+    "expected_keywords": [
+      "bachelor",
+      "programming",
+      "statistics",
+      "mathematics",
+      "personal statement",
+      "letters of recommendation",
+      "resume"
+    ],
+    "expected_url_fragments": [
+      "admissions",
+      "apply"
+    ]
+  },
+  {
+    "id": "Q3",
+    "question": "Can you provide information about the capstone project?",
+    "ground_truth": "The capstone project is a key component of the MS in Applied Data Science program, where students work on real-world problems, applying their learned skills to develop data-driven solutions.",
+    "expected_keywords": [
+      "capstone",
+      "real-world",
+      "project",
+      "data-driven"
+    ],
+    "expected_url_fragments": [
+      "capstone",
+      "curriculum"
+    ]
+  },
+  {
+    "id": "Q4",
+    "question": "What scholarships are available for the program?",
+    "ground_truth": "The Data Science Institute Scholarship, MS in Applied Data Science Alumni Scholarship, etc.",
+    "expected_keywords": [
+      "scholarship",
+      "Data Science Institute",
+      "Alumni"
+    ],
+    "expected_url_fragments": [
+      "tuition",
+      "scholarships",
+      "financial"
+    ]
+  },
+  {
+    "id": "Q5",
+    "question": "What are the minimum scores for the TOEFL and IELTS English Language Requirement?",
+    "ground_truth": "Minimum scores for the Master's in Applied Data Science program: TOEFL, 102 (no subscore requirement); IELTS, 7 (no subscore requirement).",
+    "expected_keywords": [
+      "TOEFL",
+      "102",
+      "IELTS",
+      "7"
+    ],
+    "expected_url_fragments": [
+      "admissions",
+      "international"
+    ]
+  },
+  {
+    "id": "Q6",
+    "question": "Is there an application fee waiver?",
+    "ground_truth": "For questions regarding an application fee waiver, please refer to the Physical Sciences Division fee waiver policy.",
+    "expected_keywords": [
+      "fee waiver",
+      "Physical Sciences Division"
+    ],
+    "expected_url_fragments": [
+      "faq",
+      "admissions"
+    ]
+  },
+  {
+    "id": "Q7",
+    "question": "What are the deadlines for the in-person program?",
+    "ground_truth": "In-person program deadlines include: Priority Application Deadline, Scholarship Priority Deadline, International Application Deadline (requiring visa sponsorship from UChicago), Second Priority Application Deadline, Third Priority Application Deadline, and Final Application Deadline.",
+    "expected_keywords": [
+      "Priority",
+      "Scholarship",
+      "International",
+      "Final"
+    ],
+    "expected_url_fragments": [
+      "deadlines",
+      "in-person"
+    ]
+  },
+  {
+    "id": "Q8",
+    "question": "How long will it take for me to receive a decision on my application?",
+    "ground_truth": "In-Person application decisions are released approximately 1 to 2 months after each respected deadline. Online application decisions are released on a rolling basis.",
+    "expected_keywords": [
+      "1 to 2 months",
+      "rolling basis"
+    ],
+    "expected_url_fragments": [
+      "faq",
+      "admissions"
+    ]
+  },
+  {
+    "id": "Q9",
+    "question": "Can I set up an advising appointment with the enrollment management team?",
+    "ground_truth": "Yes, meet your admissions counselor by scheduling an appointment at https://apply-psd.uchicago.edu/portal/applied-data-science.",
+    "expected_keywords": [
+      "appointment",
+      "admissions counselor",
+      "apply-psd"
+    ],
+    "expected_url_fragments": [
+      "admissions",
+      "apply"
+    ]
+  },
+  {
+    "id": "Q10",
+    "question": "Where can I mail my official transcripts?",
+    "ground_truth": "The University of Chicago, Attention: MS in Applied Data Science Admissions, 455 N Cityfront Plaza Dr., Suite 950, Chicago, Illinois 60611.",
+    "expected_keywords": [
+      "455 N Cityfront Plaza",
+      "Chicago",
+      "official transcripts"
+    ],
+    "expected_url_fragments": [
+      "faq",
+      "admissions"
+    ]
+  },
+  {
+    "id": "Q11",
+    "question": "Does the Master's in Applied Data Science Online program provide visa sponsorship?",
+    "ground_truth": "Only our In-Person, Full-Time program is Visa eligible.",
+    "expected_keywords": [
+      "Visa",
+      "In-Person",
+      "Full-Time"
+    ],
+    "expected_url_fragments": [
+      "international",
+      "faq"
+    ]
+  },
+  {
+    "id": "Q12",
+    "question": "How do I apply to the MBA/MS program?",
+    "ground_truth": "Applicants interested in the Joint MBA/MS degree will apply through Booth's centralized, joint-application process. Applicants should complete the Chicago Booth Full-Time MBA application and select the MBA/MS in Applied Data Science as their program of interest.",
+    "expected_keywords": [
+      "MBA/MS",
+      "Chicago Booth",
+      "joint application"
+    ],
+    "expected_url_fragments": [
+      "mba",
+      "joint"
+    ]
+  },
+  {
+    "id": "Q13",
+    "question": "Is the MS in Applied Data Science program STEM/OPT eligible?",
+    "ground_truth": "The MS in Applied Data Science program is STEM/OPT eligible.",
+    "expected_keywords": [
+      "STEM",
+      "OPT"
+    ],
+    "expected_url_fragments": [
+      "faq",
+      "international"
+    ]
+  },
+  {
+    "id": "Q14",
+    "question": "How many courses must you complete to earn UChicago's Master's in Applied Data Science?",
+    "ground_truth": "To earn the MS-ADS degree students must successfully complete 12 courses (6 core, 4 elective, 2 Capstone) and our tailored Career Seminar.",
+    "expected_keywords": [
+      "12 courses",
+      "6 core",
+      "4 elective",
+      "2 Capstone",
+      "Career Seminar"
+    ],
+    "expected_url_fragments": [
+      "curriculum",
+      "online-program"
+    ]
+  }
+]
