@@ -177,7 +177,10 @@ def chunk_documents(
         page_title, sections = split_sections(document.page_content)
 
         for section_title, body in sections:
-            for chunk in splitter.split_text(body):
+            chunk_source = (
+                f"{section_title}\n\n{body}" if section_title else body
+            )
+            for chunk in splitter.split_text(chunk_source):
                 metadata = {
                     "page_title": page_title,
                     "section_title": section_title,
