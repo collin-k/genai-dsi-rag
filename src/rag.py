@@ -18,11 +18,12 @@ from typing import Any, Dict, List
 
 from dotenv import load_dotenv
 from openai import OpenAI
-from config import SYSTEM_INSTRUCTIONS, LLM_MODEL, MAX_CONTEXT_CHARACTERS
 
 try:
+    from .config import LLM_MODEL, MAX_CONTEXT_CHARACTERS, SYSTEM_INSTRUCTIONS
     from .hybrid_retrieval import create_hybrid_retriever
 except ImportError:
+    from config import LLM_MODEL, MAX_CONTEXT_CHARACTERS, SYSTEM_INSTRUCTIONS
     from hybrid_retrieval import create_hybrid_retriever
 
 

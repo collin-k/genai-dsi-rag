@@ -103,6 +103,8 @@ Rules:
 - Do not use outside knowledge.
 - If the answer is unavailable, say so clearly.
 - Be concise but complete.
+- Prefer specific facts such as named courses, deadlines, scores, and addresses.
+- If numbers conflict, prefer the value labeled as the current requirement.
 - Include relevant source URLs when possible.
 
 Retrieved context:

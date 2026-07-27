@@ -136,8 +136,8 @@ st.subheader(
 )
 
 st.write(
-    "This assistant uses hybrid retrieval to combine FAISS semantic search "
-    "with BM25 keyword search before generating a grounded answer."
+    "This assistant uses hybrid retrieval (FAISS + BM25 + Reciprocal Rank "
+    "Fusion) and an OpenAI listwise reranker before generating a grounded answer."
 )
 
 st.caption(
@@ -185,6 +185,7 @@ with st.sidebar:
 - FAISS vector search
 - BM25 keyword search
 - Reciprocal Rank Fusion
+- OpenAI listwise reranker
 - Streamlit
 """
     )
@@ -273,5 +274,5 @@ st.markdown("---")
 
 st.caption(
     "Powered by OpenAI GPT-4o-mini, FAISS, BM25, Reciprocal Rank Fusion, "
-    "and Streamlit."
+    "listwise reranking, and Streamlit."
 )
