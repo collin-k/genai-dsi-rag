@@ -89,10 +89,9 @@ genai-dsi-rag/
 
    Add your API keys to `.env` (see `.env.example` for required variables).
 
-## Deliverables
+## Using the Chatbot
 
-- A functional RAG chatbot for MS in Applied Data Science program inquiries
-- Documentation covering preprocessing, architecture, and system design (5+ pages)
-- A user-friendly conversational interface
-- A presentation on implementation, challenges, and future improvements (~10 minutes)
-- Evaluation metrics for retrieval accuracy and response relevance
+To test the MS-ADS RAG assistant, run the following command. This will lead you to a local streamlit URL.
+```bash
+streamlit run src/app.py
+```
